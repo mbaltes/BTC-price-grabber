@@ -10,7 +10,7 @@ phone_number = 0
 btc_high = 290
 btc_low = 225
 
-# Replace currency code with desired abbreviation to change.
+# Replace currency code with desired abbreviation to customize.
 # Available codes listed at: https://blockchain.info/ticker
 currency_code = 'USD'
 
@@ -30,7 +30,6 @@ price = data[currency_code]['last']
 # Output
 if i:
     # Change $ to desired currency symbol to customize.
-    print(end="")
     print("Current Bitcoin Exchange Rate: $" + str(price))
 else:
     # Texting user if desired.
